@@ -1,30 +1,27 @@
 .todo {
-  width: 300px;
+  width: 250px;
   border-radius: 15px;
   box-shadow: 4px 6px 16px 0 rgb(75, 127, 173);
   padding: 0.2rem 1rem 1rem 1rem;
   margin-bottom: 1.5rem;
-  gap: 1.5rem;
+  margin-right: 1.1rem;
 }
 
 .todo-list {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  align-items: center; */
-  width: 100%;
-  display: grid;
-  place-items: center;
+  align-items: center;
   flex-wrap: wrap;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  gap: 5px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center; */
 }
 
 .todo-btn {
   background-color: white;
   color: rgb(3, 82, 185);
   font-weight: bold;
-  padding: 0.3rem 3rem 0.3rem 3rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   border-radius: 7px;

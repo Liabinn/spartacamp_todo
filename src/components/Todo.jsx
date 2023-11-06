@@ -18,16 +18,12 @@ function Todo({item, IsActive, setTodoList}) {
     );
   }
   return (
-    <div className='todo-list'>
-      <div>
-        <div className="todo">
-          <h3>{item.title}</h3>
-          <p>{item.contents}</p>
-          <div className='todo-btn-box'>
-            <button className='todo-btn' onClick={btnDelete}>삭제</button>
-            <button className='todo-btn' onClick={btnIsDone}>{IsActive ? "취소" : "완료"}</button>
-          </div>
-        </div>
+    <div className="todo">
+      <h3>{item.title}</h3>
+      <p>{item.contents}</p>
+      <div className='todo-btn-box'>
+        <button className='todo-btn' onClick={btnDelete}>삭제</button>
+        <button className='todo-btn' onClick={btnIsDone}>{IsActive ? "취소" : "완료"}</button>
       </div>
     </div>
   )
