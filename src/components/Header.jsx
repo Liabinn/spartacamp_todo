@@ -1,7 +1,8 @@
+import 'header.css';
 
 function Header({children}) {
   return (
-    <header style={{padding: '1rem'}}>{children}</header>
+    <h1 className='header'>{children}</h1>
   )
 }
 
