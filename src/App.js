@@ -8,7 +8,7 @@ function App() {
   // 새로운 todolist 생성 폼
   const [todoList, setTodoList] = useState([])
   return (
-    <div className="total">
+    <div>
       <Header>🥰 Habin's Todo List 😉</Header>
       <Input setTodoList={setTodoList}></Input>
       <TodoList IsActive={false} todoList={todoList} setTodoList={setTodoList}></TodoList>
