@@ -1,0 +1,11 @@
+style={{color: "skyblue", marginLeft: "30px"}}
+style={{marginLeft: "30px", gap: "5px", display: "flex"}}
+style={{color: "darkblue"}}
+style={{color: "darkblue"}}
+style={{backgroundColor: "skyblue", color: "darkblue", marginLeft: "30px", borderRadius: "10px", borderColor: "white", padding: "0.2rem 2rem 0.2rem 2rem"}}
+style={{border: "solid"}}
+
+const btnChange = (changeIdx) => {
+  setTodoList(todoList.map((v, i) => {return i == changeIdx ? newTodo : v}))
+}
+onClick={btnChange}
